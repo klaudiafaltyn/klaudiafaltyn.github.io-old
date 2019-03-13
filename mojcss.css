@@ -1,0 +1,148 @@
+body {
+    background-color: #303030;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+
+    font-size: 20px;
+}
+
+#logo {
+    font-size: 75px;
+    font-family: 'Petit Formal Script', cursive;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+
+#container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+.socialmedia {
+    text-align:center;
+    height: 60px;
+    background-color: #808080;
+
+}
+
+.github {
+    width:25%;
+    float:left;
+    font-size:50px;
+    border-left: dotted;
+    border-right: dotted;
+    border-color: white;
+    padding-left:50px;
+    padding-right: 50px;
+    box-sizing:border-box;
+    
+}
+.github:hover {
+    color: black;
+}
+.fb {
+    width:25%;
+    float: left;
+    font-size: 50px;
+    border-right: dotted;
+    border-color: white;
+    padding-left:50px;
+    padding-right: 50px;
+        box-sizing:border-box;
+
+    
+}
+.fb:hover {
+    color: #3b5998;
+}
+.gplus {
+    width:25%;
+    float: left;
+    font-size: 50px;
+    border-right: dotted;
+    border-color: white;
+    padding-left:50px;
+    padding-right: 50px;
+        box-sizing:border-box;
+
+    
+}
+.gplus:hover {
+    color: #d34836;
+}
+.insta {
+    width:25%;
+    font-size: 50px;
+    border-right: dotted;
+    border-color: white;
+    padding-left:50px;
+    padding-right: 50px;
+    float:left;
+        box-sizing:border-box;
+    
+
+}
+.insta:hover {
+    color:#8a3ab9;
+}
+
+.button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: white 1px solid;
+    margin-top:40px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
+
+#mozg {
+    width: 300px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border-radius:10px;
+    position:relative;
+}
+
+#mozg:hover {
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#foto {
+    border-radius: 50%;
+    width: 200px;
+    float: left;
+    padding:50px;
+}
+
+.opis {
+    float: left;
+    width: 600px;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.bioinf {
+    font-size: 30px;
+}
+
+.stopka {
+    margin:20px;
+    background-color: #808080;
+    color:black;
+}
